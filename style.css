@@ -1,0 +1,14 @@
+html {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif; 
+    background-color: rgb(212, 211, 195);
+    fill: rgb(32, 37, 45);
+    stroke: rgb(32, 37, 45)
+  }  
+
+p, h1, li, title {
+    fill: rgb(32, 37, 45)
+}
+
+
+
