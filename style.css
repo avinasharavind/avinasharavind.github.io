@@ -6,7 +6,7 @@ html {
     color: rgb(32, 37, 45)
   }  
 
-p, h1, h2, h3, li, title {
+p, h1, h2, h3, li, title, a {
     color: rgb(32, 37, 45)
 }
 
