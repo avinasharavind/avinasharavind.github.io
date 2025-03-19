@@ -9,7 +9,7 @@ body {
   margin: 0px
 }
 
-p, li, h1, h2, h3, a {
+p, li, h1, h3, a {
   margin:20px
 }
 
@@ -24,11 +24,11 @@ li {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 60px;
 }
 
 h2 {
-  font-size: 41px;
+  font-size: 36px;
 }
 
 h3 {
@@ -45,4 +45,12 @@ a {
 
 #sitemap, li{
   font-size: 24px;
+}
+
+.pheader {
+  font-size: 24px;
+}
+
+.plink {
+  font-size: 36px
 }
