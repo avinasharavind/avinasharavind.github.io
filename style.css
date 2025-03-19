@@ -1,14 +1,48 @@
 html {
-    font-size: 21px;
     font-family: "Montserrat", sans-serif; 
-    background-color: rgb(245, 251, 255);
-    fill: rgb(32, 37, 45);
-    color: rgb(32, 37, 45)
+    background-color: rgb(38, 42, 60);
+    fill: rgb(184, 199, 207);
+    color: rgb(184, 199, 207)
   }  
 
-p, h1, h2, h3, li, title, a {
-    color: rgb(32, 37, 45)
+body {
+  margin: 0px
 }
 
+p, li, h1, h2, h3, a {
+  margin:20px
+}
 
+p {
+  font-size: 24px;
+  text-align: justify;
+}
 
+li {
+  font-size: 21px;
+  line-height: 10px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 41px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+a {
+  color: rgb(184, 199, 207)
+}
+
+#headerimage, img{
+  width: 100%;
+}
+
+#sitemap, li{
+  font-size: 24px;
+}
