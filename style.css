@@ -1,56 +1,52 @@
 html {
-    font-family: "Avenir Next", sans-serif; 
-    background-color: #1b2433;
-    fill: #e1e8f2;
-    color: #e1e8f2
+    font-family: "Inter", sans-serif; 
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #f7f3ef;
+    fill: #2d2b2b;
+    color: #2d2b2b;
+    font-size: clamp(12px, 1vw, 18px);
   }  
-
-body {
-  margin: 0px
+  
+#headshot {
+  width: 20vw;
+  border-width: 2px;
+  border-color: #2d2b2b;
+  border-style: solid;
+  border-radius: 10.75vw;
+  position: absolute;
+  top: 10vh;
+  left: 1vw;
 }
 
-p, li, h1, h3, a {
-  margin:20px
+#topbar {
+  border-bottom: 2px solid #2d2b2b;
+  padding-top: 5.5vh;
 }
 
-p {
-  font-size: 24px;
-  text-align: justify;
+#name {
+  font-size: 2.5rem;
+  font-weight: 400;
+  position: absolute;
+  top: 1vh;
+  left: 3vh;
 }
 
-li {
-  font-size: 21px;
-  line-height: 21px;
+#body-text{
+  font-size: 1.5rem;
+  font-weight: 300;
+  width: 70vw;
+  position: absolute;
+  top: 7.5vh;
+  left: 23vw;
 }
 
-h1 {
-  font-size: 60px;
-}
-
-h2 {
-  font-size: 36px;
-}
-
-h3 {
-  font-size: 32px;
-}
-
-a {
-  color: rgb(184, 199, 207)
-}
-
-#headerimage, img{
-  width: 100%;
-}
-
-#sitemap, li{
-  font-size: 24px;
-}
-
-.pheader {
-  font-size: 24px;
-}
-
-.plink {
-  font-size: 36px
+#under-construction{
+  font-size: 1rem;
+  font-weight: 200;
+  font-style: italic;
+  position: absolute;
+  top:60vh;
+  left: 3vw;
 }
